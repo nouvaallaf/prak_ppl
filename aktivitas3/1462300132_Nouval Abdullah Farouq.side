@@ -1,0 +1,405 @@
+{
+  "id": "9cd3da9a-c0bc-428d-a7fb-031cb78c8d33",
+  "version": "2.0",
+  "name": "1462300132_Nouval Abdullah Farouq",
+  "url": "https://warta17agustus.com/",
+  "tests": [{
+    "id": "5d52703b-d861-4c1e-96e7-fb93adf0c103",
+    "name": "1. Skenario Uji Navbar Berita",
+    "commands": [{
+      "id": "305910f1-1771-4b01-9a2b-54b1a1aee86b",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6e4f3ef-00fd-405f-8c17-2f4ff13ec27f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90ded2e6-9b81-4238-8df7-e48e64234d0e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BERITA",
+      "targets": [
+        ["linkText=BERITA", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'BERITA')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/berita')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BERITA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "897eda32-eda9-4bb1-98c3-5d98051efa9c",
+    "name": "2. Skenario Uji Navbar Teknologi",
+    "commands": [{
+      "id": "a5b93cc7-c84b-43dd-9087-7f299c3ff280",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25514004-35d8-46ef-a1d4-202ff88c6c5e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3097037-b21e-490b-b51f-85479c532f83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TEKNOLOGI",
+      "targets": [
+        ["linkText=TEKNOLOGI", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'TEKNOLOGI')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/teknologi')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEKNOLOGI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "590805ec-ab8f-4894-b224-29028a45b33f",
+    "name": "3. Skenario Uji Navbar Video",
+    "commands": [{
+      "id": "94dd6510-5697-4538-af52-7ec5d554ac21",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2fa9730-e7fa-4b28-90fe-673f6b443d62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0a94774-d4c3-4e59-a226-fb1cc58b424c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=VIDEO",
+      "targets": [
+        ["linkText=VIDEO", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'VIDEO')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/../semuavideo')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'VIDEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6163fdaf-cdbc-4710-af41-56c19dfc0ec9",
+    "name": "4. Skenario Uji Navbar Tokoh",
+    "commands": [{
+      "id": "5782cce9-bfe8-48df-869a-e2c0122aa18f",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f84bc8b-8123-433c-8bd2-1c01c2c807a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "659b97ea-27f4-4c70-b958-4792613761c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TOKOH",
+      "targets": [
+        ["linkText=TOKOH", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'TOKOH')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/tokoh')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TOKOH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c41a1298-ccef-435c-8cb1-cea5618e7e5c",
+    "name": "5. Skenario Uji Navbar Prestasi",
+    "commands": [{
+      "id": "5577a01b-5da3-4491-bf98-204229f46142",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "659b547d-1cf6-4318-9e68-b7d099f7d6fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43cf2a62-9d10-42e5-a949-e73e1b3790f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PRESTASI",
+      "targets": [
+        ["linkText=PRESTASI", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'PRESTASI')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/prestasi')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PRESTASI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "421b4506-8068-48a6-9987-b817ce0c77b4",
+    "name": "6. Skenario Uji Navbar Beasiswa",
+    "commands": [{
+      "id": "9a751d21-675f-4024-aabb-c2c98d69c76c",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70694046-47b5-4640-9417-69b121bc1017",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71c426df-8c58-4edf-8e78-7e1940090752",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BEASISWA",
+      "targets": [
+        ["linkText=BEASISWA", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'BEASISWA')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/beasiswa')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BEASISWA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "413e97b0-3b0c-4050-930f-7cdd27ab370a",
+    "name": "7. Skenario Uji Buka Berita",
+    "commands": [{
+      "id": "d8e1ed49-f120-4d30-a286-9719c6abda20",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db3fc314-9c5f-4645-9bc8-f7a25696b5c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7ea8c98-db65-4173-83f4-e40be932ade1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BERITA",
+      "targets": [
+        ["linkText=BERITA", "linkText"],
+        ["css=.mouseover", "css:finder"],
+        ["xpath=//a[contains(text(),'BERITA')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/berita')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BERITA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32cb3df0-a856-458e-9149-1cfd60ebf616",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=TEKNOLOGI",
+      "targets": [
+        ["linkText=TEKNOLOGI", "linkText"],
+        ["css=.drop-down:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'TEKNOLOGI')]", "xpath:link"],
+        ["xpath=//ul[@id='main-menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/kategori/teknologi')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TEKNOLOGI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1690f625-a444-4117-8031-b7d40cf18800",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman",
+      "targets": [
+        ["linkText=Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman", "linkText"],
+        ["css=.mb-30:nth-child(2) > .s-right a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/beritadetail/lensa-rupa-ilmu-komunikasi-jadi-wadah-apresiasi-dan-diskusi-perfilman.html')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4af7174-5ef4-4f6d-ac6d-e2496b252b68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman",
+      "targets": [
+        ["linkText=Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman", "linkText"],
+        ["css=.mb-30:nth-child(2) > .s-right a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/beritadetail/lensa-rupa-ilmu-komunikasi-jadi-wadah-apresiasi-dan-diskusi-perfilman.html')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16948b63-6013-4d69-8aeb-984399b2d1d7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman",
+      "targets": [
+        ["linkText=Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman", "linkText"],
+        ["css=.mb-30:nth-child(2) > .s-right a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://warta17agustus.com/web/beritadetail/lensa-rupa-ilmu-komunikasi-jadi-wadah-apresiasi-dan-diskusi-perfilman.html')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lensa Rupa Ilmu Komunikasi Jadi Wadah Apresiasi dan Diskusi Perfilman')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fd83064f-6cc4-40e7-85db-b3ab7ed04c03",
+    "name": "8. Skenario Uji Pencarian Judul Berita",
+    "commands": [{
+      "id": "fea359df-2acc-40ae-8f14-c55b7f3de66d",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c53df209-02a0-4e16-854d-38a7032e8c7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "472d59a7-510a-4384-8b5a-06eef755c64c",
+      "comment": "",
+      "command": "type",
+      "target": "name=carimatch",
+      "targets": [
+        ["name=carimatch", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='carimatch']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "inovasi mahasiswa"
+    }, {
+      "id": "c75ed0a4-a8f2-4c8c-8f70-2c3587c965e1",
+      "comment": "",
+      "command": "type",
+      "target": "name=carimatch",
+      "targets": [
+        ["name=carimatch", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='carimatch']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "inovasi mahasiswa"
+    }, {
+      "id": "35206165-9741-41a6-bebe-8e34d06df322",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=carimatch",
+      "targets": [
+        ["name=carimatch", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='carimatch']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "44b73965-4066-4d90-9e06-c82dc6d36504",
+    "name": "9. Skenario Uji Direct Halaman YouTube",
+    "commands": [{
+      "id": "4be31a6a-619c-4702-889d-28a7d1cdae81",
+      "comment": "",
+      "command": "open",
+      "target": "https://warta17agustus.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec42497-7fbc-45bd-a11d-8daf9af7e751",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "becb4b11-9352-4177-8123-cbd5c4e9ef16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9679c17-bb29-4fb5-939c-c69dc24a1562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-social-youtube",
+      "targets": [
+        ["css=.ion-social-youtube", "css:finder"],
+        ["xpath=//li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd70cd3-2206-42a4-9b4c-ed5145e8b63a",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ytSpecTouchFeedbackShapeHost:nth-child(3) > .ytSpecTouchFeedbackShapeFill",
+      "targets": [
+        ["css=.ytSpecTouchFeedbackShapeHost:nth-child(3) > .ytSpecTouchFeedbackShapeFill", "css:finder"],
+        ["xpath=//div[@id='buttons']/ytd-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ytd-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83c7db2d-3d54-44b8-ae2e-d83e4522b07b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://warta17agustus.com/"],
+  "plugins": []
+}
